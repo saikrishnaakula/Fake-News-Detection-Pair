@@ -18,7 +18,7 @@ BERT_DOWNLOAD_PATH = 'bert-base-uncased'
 
 FEATURES = ['title1_en','title2_en']
 TARGET = ['label']
-READ = True
+READ = False
 
 # config = AutoConfig.from_pretrained('bert-base-uncased',num_labels = NUM_LABELS, output_attentions = OUTPUT_ATTENTIONS, output_hidden_states = OUTPUT_HIDDEN_STATES)
 # MODEL = AutoModelForSequenceClassification.from_config(config)
